@@ -1,0 +1,103 @@
+/* Smart PHones and Tablets*/
+
+@media (max-width: 767px) {
+    #top-nav .links ul a li {
+        width: 100%;
+        margin: auto;
+        text-align: right;
+        border: 1px solid #ccc;
+        margin-bottom: 2px;
+        direction: ltr
+    }
+    #bottom-nav .take ul li {
+        width: 100%;
+        margin-bottom: 3px
+    }
+    #bottom-nav .services ul li {
+        width: 100%;
+        margin-bottom: 3px;
+    }
+    .info h2 {
+        font-size: 24px;
+        line-height: 1.5
+    }
+    .service .serv {
+        margin-bottom: 25px;
+    }
+    #SpecialCase .special:before,
+    .domains .special:before {
+        content: "";
+        display: block;
+        width: 0;
+        border-width: 15px 15px 0px 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent transparent;
+    }
+    #SpecialCase .offer h2 {
+        font-size: 22px
+    }
+    #SpecialCase .offer h2 span {
+        font-size: 30px
+    }
+    .orange,
+    .green {
+        margin-top: 20px;
+    }
+    .domains .special {
+        margin-top: 10px
+    }
+    .domains a.btn {
+        margin-bottom: 10px
+    }
+    .otherservices a.btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
+/* Small Screens*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .otherservices a.btn {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .domains .special {
+        margin-top: 10px
+    }
+    .domains a.btn {
+        margin-bottom: 10px
+    }
+    #SpecialCase .special:before,
+    .domains .special:before {
+        content: "";
+        display: block;
+        width: 0;
+        border-width: 15px 15px 0px 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent transparent;
+    }
+    .take {
+        margin: 0 auto;
+        text-align: center;
+    }
+    #bottom-nav .services {
+        padding-top: 15px;
+        text-align: center;
+    }
+    #bottom-nav .img-responsive {
+        width: 40%;
+        margin-top: 20px
+    }
+}
+
+
+/* Medium Screens */
+
+@media (min-width:992px) and (max-width: 1199px) {}
+
+
+/* Large Screens */
+
+@media (min-width: 1200px) {}
